@@ -77,7 +77,9 @@ with open(csv_file, "w", newline="") as f:
 #print(f"CSV saved to {csv_file} with {len(rows)} iterations and {len(all_runs)} runs.")
 
 #%%
+import pandas as pd 
 
+df = pd.read_csv("iterations.csv")
 subfolder = '../processed_files' 
 excel_file = os.path.join(subfolder, "output_POI_nonpadded.xlsx") 
 df.to_excel(excel_file, index=False)  # index=False avoids writing the row numbers
@@ -85,9 +87,7 @@ df.to_excel(excel_file, index=False)  # index=False avoids writing the row numbe
 
 
 #%% 
-import pandas as pd 
 
-df = pd.read_csv("iterations.csv")
 #print(df) 
 df = df.fillna(18.5345)
 df
@@ -99,3 +99,5 @@ excel_file = os.path.join(subfolder, "output_POI.xlsx")
 df.to_excel(excel_file, index=False)  # index=False avoids writing the row numbers
 
 
+
+# %%
