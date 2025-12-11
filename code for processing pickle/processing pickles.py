@@ -1,7 +1,7 @@
 #code for opening pickle and processing in excel 
 
 #%% 
-!pip install pandas openpyxl
+#!pip install pandas openpyxl
 #%%
 
 import pickle
@@ -75,6 +75,14 @@ with open(csv_file, "w", newline="") as f:
     writer.writerows(rows)
 
 #print(f"CSV saved to {csv_file} with {len(rows)} iterations and {len(all_runs)} runs.")
+
+#%%
+
+subfolder = '../processed_files' 
+excel_file = os.path.join(subfolder, "output_POI_nonpadded.xlsx") 
+df.to_excel(excel_file, index=False)  # index=False avoids writing the row numbers
+
+
 
 #%% 
 import pandas as pd 
