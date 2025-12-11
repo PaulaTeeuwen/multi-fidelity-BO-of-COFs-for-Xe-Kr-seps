@@ -1,4 +1,7 @@
-#code for opening pickle and processing in excel
+#code for opening pickle and processing in excel 
+
+#%% 
+!pip install pandas openpyxl
 #%%
 
 import pickle
@@ -83,3 +86,8 @@ df
 
 
 # %%
+subfolder = '../processed_files' 
+excel_file = os.path.join(subfolder, "output_POI.xlsx") 
+df.to_excel(excel_file, index=False)  # index=False avoids writing the row numbers
+
+
