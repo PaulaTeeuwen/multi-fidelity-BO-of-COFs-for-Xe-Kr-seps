@@ -24,7 +24,9 @@ import csv
 
 #%%
 
-# Path to pickle folder
+# Path to pickle folder 
+
+###CHANGE HERE 
 pickle_folder = r'../search_results/mfbo/Run3_10Dec_Saloni_POI'
 
 # Output CSV file
@@ -76,7 +78,11 @@ with open(csv_file, "w", newline="") as f:
 
 #print(f"CSV saved to {csv_file} with {len(rows)} iterations and {len(all_runs)} runs.")
 
-#%%
+#%%v
+
+
+###CHANGE EXCEL FILE NAME 
+
 import pandas as pd 
 
 df = pd.read_csv("iterations.csv")
@@ -93,7 +99,10 @@ df = df.fillna(18.5345)
 df
 
 
-# %%
+# %% 
+
+#####CHANGE EXCEL FILE NAME
+
 subfolder = '../processed_files' 
 excel_file = os.path.join(subfolder, "output_POI.xlsx") 
 df.to_excel(excel_file, index=False)  # index=False avoids writing the row numbers
