@@ -1,0 +1,527 @@
+top COF =  b'19440N2_ddec.cif'
+dict_keys(['init_cof_ids'])
+<class 'list'>
+100
+Initial training set for run 0:
+[112 522  45]
+
+Initial training set for run 1:
+[312  45  71]
+
+Initial training set for run 2:
+[550  45  71]
+
+Initial training set for run 3:
+[ 77 522  45]
+
+Initial training set for run 4:
+[400  45 522]
+
+Initial training set for run 5:
+[456  71  45]
+
+Initial training set for run 6:
+[452  71  98]
+
+Initial training set for run 7:
+[ 35 522   9]
+
+Initial training set for run 8:
+[76 71 98]
+
+Initial training set for run 9:
+[ 36  45 522]
+
+Initial training set for run 10:
+[600 522  98]
+
+Initial training set for run 11:
+[88 45 71]
+
+Initial training set for run 12:
+[153 522  45]
+
+Initial training set for run 13:
+[78 73 45]
+
+Initial training set for run 14:
+[ 10 494  98]
+
+Initial training set for run 15:
+[315 522  73]
+
+Initial training set for run 16:
+[118  45 522]
+
+Initial training set for run 17:
+[160  98 522]
+
+Initial training set for run 18:
+[406 522  45]
+
+Initial training set for run 19:
+[478 522  45]
+
+Initial training set for run 20:
+[271  45  73]
+
+Initial training set for run 21:
+[389  45  71]
+
+Initial training set for run 22:
+[ 81  45 522]
+
+Initial training set for run 23:
+[416  45 522]
+
+Initial training set for run 24:
+[ 13  98 223]
+
+Initial training set for run 25:
+[ 68 522  98]
+
+Initial training set for run 26:
+[ 29  45 522]
+
+Initial training set for run 27:
+[132  45 522]
+
+Initial training set for run 28:
+[239 522  73]
+
+Initial training set for run 29:
+[236  45  71]
+
+Initial training set for run 30:
+[488  45 522]
+
+Initial training set for run 31:
+[ 34  45 522]
+
+Initial training set for run 32:
+[249  71  45]
+
+Initial training set for run 33:
+[213 522  98]
+
+Initial training set for run 34:
+[439 522  45]
+
+Initial training set for run 35:
+[485 522  45]
+
+Initial training set for run 36:
+[575 522  45]
+
+Initial training set for run 37:
+[221 522  73]
+
+Initial training set for run 38:
+[569   9  71]
+
+Initial training set for run 39:
+[158  45 223]
+
+Initial training set for run 40:
+[125 522  45]
+
+Initial training set for run 41:
+[58 71  9]
+
+Initial training set for run 42:
+[477  71  45]
+
+Initial training set for run 43:
+[418 522  45]
+
+Initial training set for run 44:
+[302  45  71]
+
+Initial training set for run 45:
+[ 32  45 522]
+
+Initial training set for run 46:
+[447  45 522]
+
+Initial training set for run 47:
+[299  98  71]
+
+Initial training set for run 48:
+[602  71  45]
+
+Initial training set for run 49:
+[300  71  98]
+
+Initial training set for run 50:
+[281  71  45]
+
+Initial training set for run 51:
+[332 522  73]
+
+Initial training set for run 52:
+[537 522  45]
+
+Initial training set for run 53:
+[94 45 71]
+
+Initial training set for run 54:
+[187 522  73]
+
+Initial training set for run 55:
+[106 522  73]
+
+Initial training set for run 56:
+[188 522  45]
+
+Initial training set for run 57:
+[93 45 71]
+
+Initial training set for run 58:
+[219 522  45]
+
+Initial training set for run 59:
+[592  45  73]
+
+Initial training set for run 60:
+[282 522  73]
+
+Initial training set for run 61:
+[357 522  98]
+
+Initial training set for run 62:
+[353 522  73]
+
+Initial training set for run 63:
+[171  45  71]
+
+Initial training set for run 64:
+[255 522  45]
+
+Initial training set for run 65:
+[463 522  73]
+
+Initial training set for run 66:
+[242  45 522]
+
+Initial training set for run 67:
+[574  73 522]
+
+Initial training set for run 68:
+[ 11  98 494]
+
+Initial training set for run 69:
+[536 522  45]
+
+Initial training set for run 70:
+[152 522  45]
+
+Initial training set for run 71:
+[487  45  71]
+
+Initial training set for run 72:
+[529  45 522]
+
+Initial training set for run 73:
+[408 522  73]
+
+Initial training set for run 74:
+[318 494 223]
+
+Initial training set for run 75:
+[244  45 522]
+
+Initial training set for run 76:
+[379  45  71]
+
+Initial training set for run 77:
+[534 522  45]
+
+Initial training set for run 78:
+[273  45 522]
+
+Initial training set for run 79:
+[237 176  73]
+
+Initial training set for run 80:
+[109  45 522]
+
+Initial training set for run 81:
+[559  71  45]
+
+Initial training set for run 82:
+[ 96  45 522]
+
+Initial training set for run 83:
+[181  71   9]
+
+Initial training set for run 84:
+[  1  98 223]
+
+Initial training set for run 85:
+[549  45  71]
+
+Initial training set for run 86:
+[432 522  73]
+
+Initial training set for run 87:
+[241  45  71]
+
+Initial training set for run 88:
+[185 522  98]
+
+Initial training set for run 89:
+[192  45   9]
+
+Initial training set for run 90:
+[499  71  45]
+
+Initial training set for run 91:
+[ 86  45 522]
+
+Initial training set for run 92:
+[292  45  71]
+
+Initial training set for run 93:
+[140 522  45]
+
+Initial training set for run 94:
+[204 522  45]
+
+Initial training set for run 95:
+[52 71 45]
+
+Initial training set for run 96:
+[166  45  71]
+
+Initial training set for run 97:
+[525  45  73]
+
+Initial training set for run 98:
+[397 522  45]
+
+Initial training set for run 99:
+[457  71  45]
+
+0: pore_diameter_Å
+1: void_fraction
+2: surface_area_m²g⁻¹
+3: crystal_density
+4: B
+5: O
+6: C
+7: H
+8: Si
+9: N
+10: S
+11: P
+12: halogens
+13: metals
+/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B4.py:243: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  assert init_cof_ids[0][0] == np.argmin([np.linalg.norm(x_mean - X[j, :].detach().numpy()) for j in range(nb_COFs)])
+/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B4.py:245: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+  assert init_cof_ids[0][1] == np.argmax([np.linalg.norm(X[init_cof_ids[0][0], :] - X[j, :].detach().numpy()) for j in range(nb_COFs)])
+total high-fidelity cost: 139887.66223703226 [min]
+total low-fidelity cost:  10076.305239888028 [min]
+average high-fidelity cost: 230.0783918372241 [min]
+average low-fidelity cost:  16.57287046034216 [min]
+average cost ratio:	    13.444745568580501
+
+raw data - 
+	X: torch.Size([608, 14])
+	fidelity: 0
+		y: torch.Size([608])
+		cost:  (608,)
+	fidelity: 1
+		y: torch.Size([608])
+		cost:  (608,)
+
+Ensure features are normalized - 
+max:
+ tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
+       dtype=torch.float64)
+min:
+ tensor([0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0., 0.],
+       dtype=torch.float64)
+width:
+ tensor([1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1., 1.],
+       dtype=torch.float64)
+mean:
+ tensor([0.2856, 0.5864, 0.5304, 0.3323, 0.0421, 0.1617, 0.6405, 0.6793, 0.0062,
+        0.1758, 0.0308, 0.0131, 0.0132, 0.0238], dtype=torch.float64)
+std:
+ tensor([0.1586, 0.1787, 0.1896, 0.1512, 0.1150, 0.1916, 0.1631, 0.1354, 0.0631,
+        0.1126, 0.1026, 0.0935, 0.0740, 0.1043], dtype=torch.float64)
+/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B4.py:304: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  f_id = get_f_ids(torch.tensor(f_val))
+BO iteration:  6
+BO iteration:  7
+BO iteration:  8
+BO iteration:  9
+BO iteration:  10
+BO iteration:  11
+BO iteration:  12
+BO iteration:  13
+BO iteration:  14
+BO iteration:  15
+BO iteration:  16
+BO iteration:  17
+BO iteration:  18
+BO iteration:  19
+BO iteration:  20
+BO iteration:  21
+BO iteration:  22
+BO iteration:  23
+BO iteration:  24
+BO iteration:  25
+BO iteration:  26
+BO iteration:  27
+BO iteration:  28
+BO iteration:  29
+BO iteration:  30
+BO iteration:  31
+BO iteration:  32
+BO iteration:  33
+BO iteration:  34
+BO iteration:  35
+BO iteration:  36
+BO iteration:  37
+BO iteration:  38
+BO iteration:  39
+BO iteration:  40
+BO iteration:  41
+BO iteration:  42
+BO iteration:  43
+BO iteration:  44
+BO iteration:  45
+BO iteration:  46
+BO iteration:  47
+BO iteration:  48
+BO iteration:  49
+BO iteration:  50
+BO iteration:  51
+BO iteration:  52
+BO iteration:  53
+BO iteration:  54
+BO iteration:  55
+BO iteration:  56
+BO iteration:  57
+BO iteration:  58
+BO iteration:  59
+BO iteration:  60
+BO iteration:  61
+BO iteration:  62
+BO iteration:  63
+BO iteration:  64
+BO iteration:  65
+BO iteration:  66
+BO iteration:  67
+BO iteration:  68
+BO iteration:  69
+BO iteration:  70
+BO iteration:  71
+BO iteration:  72
+BO iteration:  73
+BO iteration:  74
+BO iteration:  75
+BO iteration:  76
+BO iteration:  77
+BO iteration:  78
+BO iteration:  79
+BO iteration:  80
+BO iteration:  81
+BO iteration:  82
+BO iteration:  83
+BO iteration:  84
+BO iteration:  85
+BO iteration:  86
+BO iteration:  87
+BO iteration:  88
+BO iteration:  89
+BO iteration:  90
+BO iteration:  91
+BO iteration:  92
+BO iteration:  93
+BO iteration:  94
+BO iteration:  95
+BO iteration:  96
+BO iteration:  97
+BO iteration:  98
+BO iteration:  99
+BO iteration:  100
+BO iteration:  101
+BO iteration:  102
+BO iteration:  103
+BO iteration:  104
+BO iteration:  105
+BO iteration:  106
+BO iteration:  107
+BO iteration:  108
+BO iteration:  109
+BO iteration:  110
+BO iteration:  111
+BO iteration:  112
+BO iteration:  113
+BO iteration:  114
+BO iteration:  115
+BO iteration:  116
+BO iteration:  117
+BO iteration:  118
+BO iteration:  119
+BO iteration:  120
+BO iteration:  121
+BO iteration:  122
+BO iteration:  123
+BO iteration:  124
+BO iteration:  125
+BO iteration:  126
+BO iteration:  127
+BO iteration:  128
+BO iteration:  129
+BO iteration:  130
+BO iteration:  131
+BO iteration:  132
+BO iteration:  133
+BO iteration:  134
+BO iteration:  135
+BO iteration:  136
+BO iteration:  137
+BO iteration:  138
+BO iteration:  139
+BO iteration:  140
+BO iteration:  141
+BO iteration:  142
+BO iteration:  143
+BO iteration:  144
+BO iteration:  145
+BO iteration:  146
+BO iteration:  147
+BO iteration:  148
+BO iteration:  149
+BO iteration:  150
+BO iteration:  151
+BO iteration:  152
+BO iteration:  153
+BO iteration:  154
+BO iteration:  155
+BO iteration:  156
+BO iteration:  157
+BO iteration:  158
+BO iteration:  159
+BO iteration:  160
+BO iteration:  161
+BO iteration:  162
+BO iteration:  163
+BO iteration:  164
+BO iteration:  165
+BO iteration:  166
+BO iteration:  167
+BO iteration:  168
+BO iteration:  169
+BO iteration:  170
+BO iteration:  171
+BO iteration:  172
+BO iteration:  173
+BO iteration:  174
+BO iteration:  175
+BO iteration:  176
+BO iteration:  177
