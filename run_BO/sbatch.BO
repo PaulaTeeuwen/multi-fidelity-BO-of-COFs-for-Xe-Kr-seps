@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH -p MAIN
+##SBATCH --time=0-0:29:0
+#SBATCH -J BO2
+
+# Number of MPI tasks
+#SBATCH -n 1
+#
+# Number of cores per task
+#SBATCH -c 8
+
+echo $SLURM_NTASKS > nodes.info
+srun hostname >> nodes.info
+echo $USER >> nodes.info
+pwd >> nodes.info
+
+export MKL_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export OMP_STACKSIZE=4G
+module load xtb/6.5.0
+
+jupyter nbconvert --to script MultiFidelity_BO_edited_UCB_B02.ipynb
+python MultiFidelity_BO_edited_UCB_B02.py
