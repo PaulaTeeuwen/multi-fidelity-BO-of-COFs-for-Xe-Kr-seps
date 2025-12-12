@@ -316,9 +316,9 @@ Initial training set for run 99:
 11: P
 12: halogens
 13: metals
-/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B4.py:243: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B25.py:243: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
   assert init_cof_ids[0][0] == np.argmin([np.linalg.norm(x_mean - X[j, :].detach().numpy()) for j in range(nb_COFs)])
-/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B4.py:245: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
+/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B25.py:245: DeprecationWarning: __array_wrap__ must accept context and return_scalar arguments (positionally) in the future. (Deprecated NumPy 2.0)
   assert init_cof_ids[0][1] == np.argmax([np.linalg.norm(X[init_cof_ids[0][0], :] - X[j, :].detach().numpy()) for j in range(nb_COFs)])
 total high-fidelity cost: 139887.66223703226 [min]
 total low-fidelity cost:  10076.305239888028 [min]
@@ -351,7 +351,7 @@ mean:
 std:
  tensor([0.1586, 0.1787, 0.1896, 0.1512, 0.1150, 0.1916, 0.1631, 0.1354, 0.0631,
         0.1126, 0.1026, 0.0935, 0.0740, 0.1043], dtype=torch.float64)
-/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B4.py:304: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
+/sharedscratch/pcpt3/github/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/run_BO/MultiFidelity_BO_edited_UCB_B25.py:304: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.detach().clone() or sourceTensor.detach().clone().requires_grad_(True), rather than torch.tensor(sourceTensor).
   f_id = get_f_ids(torch.tensor(f_val))
 BO iteration:  6
 BO iteration:  7
@@ -695,6 +695,52 @@ BO iteration:  344
 BO iteration:  345
 BO iteration:  346
 BO iteration:  347
+BO iteration:  348
+BO iteration:  349
+BO iteration:  350
+BO iteration:  351
+BO iteration:  352
+BO iteration:  353
+BO iteration:  354
+BO iteration:  355
+BO iteration:  356
+BO iteration:  357
+BO iteration:  358
+BO iteration:  359
+BO iteration:  360
+BO iteration:  361
+BO iteration:  362
+BO iteration:  363
+BO iteration:  364
+BO iteration:  365
+BO iteration:  366
+BO iteration:  367
+BO iteration:  368
+BO iteration:  369
+BO iteration:  370
+BO iteration:  371
+BO iteration:  372
+BO iteration:  373
+BO iteration:  374
+BO iteration:  375
+BO iteration:  376
+BO iteration:  377
+BO iteration:  378
+BO iteration:  379
+BO iteration:  380
+BO iteration:  381
+BO iteration:  382
+BO iteration:  383
+BO iteration:  384
+BO iteration:  385
+BO iteration:  386
+BO iteration:  387
+BO iteration:  388
+BO iteration:  389
+BO iteration:  390
+BO iteration:  391
+BO iteration:  392
+BO iteration:  393
 found top COF! exiting.
 run #: 0
 BO iteration:  6
@@ -752,3 +798,101 @@ BO iteration:  57
 BO iteration:  58
 BO iteration:  59
 BO iteration:  60
+BO iteration:  61
+BO iteration:  62
+BO iteration:  63
+BO iteration:  64
+BO iteration:  65
+BO iteration:  66
+BO iteration:  67
+BO iteration:  68
+BO iteration:  69
+BO iteration:  70
+BO iteration:  71
+BO iteration:  72
+BO iteration:  73
+BO iteration:  74
+BO iteration:  75
+BO iteration:  76
+BO iteration:  77
+BO iteration:  78
+BO iteration:  79
+BO iteration:  80
+BO iteration:  81
+BO iteration:  82
+BO iteration:  83
+BO iteration:  84
+BO iteration:  85
+BO iteration:  86
+BO iteration:  87
+BO iteration:  88
+BO iteration:  89
+BO iteration:  90
+BO iteration:  91
+BO iteration:  92
+BO iteration:  93
+BO iteration:  94
+BO iteration:  95
+BO iteration:  96
+BO iteration:  97
+BO iteration:  98
+BO iteration:  99
+BO iteration:  100
+BO iteration:  101
+BO iteration:  102
+BO iteration:  103
+BO iteration:  104
+BO iteration:  105
+BO iteration:  106
+BO iteration:  107
+BO iteration:  108
+BO iteration:  109
+BO iteration:  110
+BO iteration:  111
+BO iteration:  112
+BO iteration:  113
+BO iteration:  114
+BO iteration:  115
+BO iteration:  116
+BO iteration:  117
+BO iteration:  118
+BO iteration:  119
+BO iteration:  120
+BO iteration:  121
+BO iteration:  122
+BO iteration:  123
+BO iteration:  124
+BO iteration:  125
+BO iteration:  126
+BO iteration:  127
+BO iteration:  128
+BO iteration:  129
+BO iteration:  130
+BO iteration:  131
+BO iteration:  132
+BO iteration:  133
+BO iteration:  134
+BO iteration:  135
+BO iteration:  136
+BO iteration:  137
+BO iteration:  138
+BO iteration:  139
+BO iteration:  140
+BO iteration:  141
+BO iteration:  142
+BO iteration:  143
+BO iteration:  144
+BO iteration:  145
+BO iteration:  146
+BO iteration:  147
+BO iteration:  148
+BO iteration:  149
+BO iteration:  150
+BO iteration:  151
+BO iteration:  152
+BO iteration:  153
+BO iteration:  154
+BO iteration:  155
+BO iteration:  156
+BO iteration:  157
+BO iteration:  158
