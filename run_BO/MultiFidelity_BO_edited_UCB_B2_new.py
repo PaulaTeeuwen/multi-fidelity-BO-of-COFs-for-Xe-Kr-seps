@@ -490,7 +490,7 @@ def EI_hf(model, X, acquired_set):
     hf_mu, hf_sigma = mu_sigma(model, X, discrete_fidelities[-1])
     
     # Upper Confidence Bound (UCB)
-    beta = 25  # exploration parameter - adjust as needed
+    beta = 2  # exploration parameter - adjust as needed
     ucb = hf_mu + np.sqrt(beta) * hf_sigma
     return np.maximum(ucb, np.zeros(X.size()[0]))
 
@@ -608,7 +608,7 @@ bogus_X_train_hf[2][-1] = 2/3
 bogus_model = train_surrogate_model(bogus_X_train, bogus_y_train) 
 
 # use BO Torch's acquisition functions
-bot_ucb = UpperConfidenceBound(bogus_model, beta=25)
+bot_ucb = UpperConfidenceBound(bogus_model, beta=2)
 bot_ucb_vals = bot_ucb.forward(bogus_X_train_hf.unsqueeze(1))
 
 # ours
@@ -952,14 +952,9 @@ def save_run_results(acquired_set, run, ablation_study_flag):
     
     import os  
     import pickle
-    
-    # Dynamically compute path from script location (works on any system)
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    project_root = os.path.dirname(script_dir)  # go up from run_BO to project root
-    output_folder = os.path.join(project_root, 'search_results', 'mfbo', 'Run5_10Dec_UCB_B25')
-    os.makedirs(output_folder, exist_ok=True)
+    os.makedirs('../search_results/mfbo/Run5_10Dec_UCB_B2', exist_ok=True)
 
-    pickle_filename = os.path.join(output_folder, 'mfbo_results_run_{}'.format(run))
+    pickle_filename = '../search_results/mfbo/Run5_10Dec_UCB_B2/mfbo_results_run_{}'.format(run)
     if ablation_study_flag:
         pickle_filename += "_ablation"
     pickle_filename += ".pkl"

@@ -20,4 +20,4 @@ export OMP_STACKSIZE=4G
 module load xtb/6.5.0
 
 jupyter nbconvert --to script MultiFidelity_BO_edited_UCB_B4.ipynb
-python MultiFidelity_BO_edited_UCB_B4.py > output_BO_B4.txt 2>&1
+python -u MultiFidelity_BO_edited_UCB_B4.py > output_BO_B4.txt 2>&1
