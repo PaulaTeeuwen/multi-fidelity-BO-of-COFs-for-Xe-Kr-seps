@@ -6,19 +6,21 @@ import numpy as np
 
 # Methods to compare - specify folder names relative to search_results/mfbo/
 methods = [
+    "../sfbo/Original",
     "Original",
     "Run3_10Dec_Saloni_POI",
     "Run3_10Dec_Saloni_POI_RedoOnHPC",
     "Run5_10Dec_UCB_B004_new",
     "Run5_10Dec_UCB_B2_new",
     "Run5_10Dec_UCB_B4_new",
-    "Run5_10Dec_UCB_B25_new",
+    "Run5_10Dec_UCB_B25", #B25 has more runs than B25_new
     "Run5_10Dec_UCB_B100_new",
 ]
 
 # Custom labels for each method (same order as methods list)
 method_labels = [
-    "Original",
+    "SF",
+    "EI",
     "POI",
     "POI Redo",
     "UCB β=0.04",
