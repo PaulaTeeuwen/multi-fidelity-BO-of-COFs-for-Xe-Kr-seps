@@ -8,8 +8,9 @@ import numpy as np
 
 # Paths to pickle folders (combine as many as you like)
 pickle_dirs = [
-    "/Users/paulateeuwen/GitHub/AIChemy/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/search_results/mfbo/Run3_10Dec_Saloni_POI",
-    "/Users/paulateeuwen/GitHub/AIChemy/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/search_results/mfbo/Run3_10Dec_Saloni_POI_RedoOnHPC",
+    "/Users/paulateeuwen/GitHub/AIChemy/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/search_results/mfbo/Run5_10Dec_UCB_B100_new",
+    "/Users/paulateeuwen/GitHub/AIChemy/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/search_results/mfbo/Run5_10Dec_UCB_B100",
+    "/Users/paulateeuwen/GitHub/AIChemy/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/search_results/mfbo/Run5_10Dec_UCB_B100_macbook",
     # add more folders here, e.g.
     # "/Users/paulateeuwen/GitHub/AIChemy/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps/search_results/mfbo/Run5_10Dec_UCB_B25",
 ]
