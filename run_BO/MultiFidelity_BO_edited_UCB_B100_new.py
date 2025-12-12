@@ -956,7 +956,7 @@ def save_run_results(acquired_set, run, ablation_study_flag):
     # Dynamically compute path from script location (works on any system)
     script_dir = os.path.dirname(os.path.abspath(__file__))
     project_root = os.path.dirname(script_dir)  # go up from run_BO to project root
-    output_folder = os.path.join(project_root, 'search_results', 'mfbo', 'Run5_10Dec_UCB_B100')
+    output_folder = os.path.join(project_root, 'search_results', 'mfbo', 'Run5_10Dec_UCB_B100_macbook')
     os.makedirs(output_folder, exist_ok=True)
 
     pickle_filename = os.path.join(output_folder, 'mfbo_results_run_{}'.format(run))
