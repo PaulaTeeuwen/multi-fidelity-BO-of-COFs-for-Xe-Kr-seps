@@ -16,7 +16,7 @@ pickle_dirs = [
 # Collect all pickle files from the listed folders
 files = []
 for d in pickle_dirs:
-    folder_files = [os.path.join(d, f) for f in os.listdir(d) if f.endswith(".pkl")]
+    folder_files = [os.path.join(d, f) for f in os.listdir(d) if f.endswith(".pkl") and "_ablation" not in f]
     print(f"Found {len(folder_files)} pickle files in {d}")
     files.extend(folder_files)
 
