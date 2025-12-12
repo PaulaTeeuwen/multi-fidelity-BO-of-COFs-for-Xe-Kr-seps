@@ -952,9 +952,14 @@ def save_run_results(acquired_set, run, ablation_study_flag):
     
     import os  
     import pickle
-    os.makedirs('../search_results/mfbo/Run5_10Dec_UCB_B100', exist_ok=True)
+    
+    # Dynamically compute path from script location (works on any system)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)  # go up from run_BO to project root
+    output_folder = os.path.join(project_root, 'search_results', 'mfbo', 'Run5_10Dec_UCB_B100')
+    os.makedirs(output_folder, exist_ok=True)
 
-    pickle_filename = '../search_results/mfbo/Run5_10Dec_UCB_B100/mfbo_results_run_{}'.format(run)
+    pickle_filename = os.path.join(output_folder, 'mfbo_results_run_{}'.format(run))
     if ablation_study_flag:
         pickle_filename += "_ablation"
     pickle_filename += ".pkl"
